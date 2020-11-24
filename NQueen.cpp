@@ -51,12 +51,12 @@ public:
 			if (board[i][col] == false)
 				return false;
 		}
-		for (i = row, j=col; i>=0&&j>=0; i--, j--)
+		for (i = row, j = col; i >= 0 && j >= 0; i--, j--)
 		{
 			if (board[i][j] == false)
 				return false;
 		}
-		for (i = row, j=col; i>=0 && j < boardSize; i--,j++)
+		for (i = row, j = col; i >= 0 && j < boardSize; i--, j++)
 		{
 			if (board[i][j] == false)
 				return false;
